@@ -36,7 +36,7 @@ package clienteditor;
  */
 public class ClientEditor extends javax.swing.JPanel {
     private Client client = Client.createTestClient();
-
+//another comment
     public ClientEditor() {
         initComponents();
         bindingGroup.addBindingListener(new LoggingBindingListener(validationMsgLabel));
